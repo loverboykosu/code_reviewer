@@ -1,8 +1,8 @@
 const CodeReviewer = () => {
   return (
     <>
-      <div className="text-sky-500">
-        <h1>Hello world</h1>
+      <div className="bg-gray-700 text-white text-center p-4">
+        <h1>AI code reviewer</h1>
       </div>
     </>
   );
