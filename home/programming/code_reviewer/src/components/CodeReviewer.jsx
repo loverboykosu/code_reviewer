@@ -13,11 +13,11 @@ const CodeReviewer = () => {
       </div>
 
       <div className="flex flex-row">
-        {/* オリジナル言語 */}
+        {/* レビュー対象 */}
         <div className="relative origin basis-1/2 text-center m-3">
           <h2 className="border-2 border-solid m-3 rounded">Original</h2>
           <textarea
-            className="text-white placeholder-white border-1 border-solid w-md min-h-80 bg-gray-900"
+            className="text-white placeholder-white border-1 border-solid resize w-md min-h-80 bg-gray-900"
             name=""
             id=""
             placeholder="レビューするスクリプトを入力してください"
