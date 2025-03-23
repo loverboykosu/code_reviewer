@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import CodeReviewer from "./components/CodeReviewer";
 
 function App() {
