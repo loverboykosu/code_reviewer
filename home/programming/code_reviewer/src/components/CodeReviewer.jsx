@@ -22,12 +22,6 @@ const CodeReviewer = () => {
           </h2>
           <textarea
             className="text-white placeholder-white w-full border-1 border-solid resize min-h-80 bg-gray-900"
-            name=""
-            text-white
-            placeholder-white
-            w-full
-            border-
-            id=""
             placeholder="レビューするスクリプトを入力してください"
             onChange={getText}
           ></textarea>
