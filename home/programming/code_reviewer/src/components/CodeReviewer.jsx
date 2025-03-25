@@ -1,4 +1,5 @@
 import { useState } from "react";
+import codeReviewer from "../lib/getReview";
 const CodeReviewer = () => {
   const [hasOriginWord, setHasOriginWord] = useState(false);
   const [originWord, setOriginWord] = useState("");
