@@ -1,9 +1,19 @@
 import axios from "axios";
-class CodeReviewer {
+class ReviewerClient {
   static async initialize() {
-    console.log("hello");
+    let code = new ReviewerClient();
+    return code;
+  }
+  async fetchData(apiUrl) {
+    try {
+      const result = await axios.get(apiUrl);
+      console.log(result);
+      return result;
+    } catch (error) {
+      return error;
+    }
   }
 }
 
-const codeReviewer = await CodeReviewer.initialize();
-export default codeReviewer;
+const code = await ReviewerClient.initialize();
+export default code;
