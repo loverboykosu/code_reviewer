@@ -9,6 +9,7 @@ const CodeReviewer = () => {
   const getClick = (e) => {
     setHasOriginWord(true);
   };
+
   return (
     <>
       <div className="bg-gray-900 text-white text-center p-4">
