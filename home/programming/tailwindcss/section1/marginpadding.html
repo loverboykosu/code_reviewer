@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!--インライン要素-->
+    <span class="border border-red-500 m-8">margin</span>
+    <span class="border border-red-500 p-8">padding</span>
+    <!-- ブロック要素 -->
+    <p class="border border-blue-500 mt-16">p1</p>
+    <p class="border border-blue-500 m-8 p-8">p2</p>
+    <p class="border border-blue-500 mx-16">p3</p>
+
+    <!-- ブロック要素の中にインライン要素 -->
+    <p class="border border-green-500 mt-16">
+      p4
+      <span class="border border-green-500 m-8">span1</span>
+    </p>
+    <div>
+      <div class="border border-yellow-500 mt-16 w-1/2">hello</div>
+    </div>
+  </body>
+</html>

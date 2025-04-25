@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!--インライン要素-->
+    <div class="flex justify-center mb-16">
+      <div class="text-center border border-red-300 py-4 flex-grow">あああ</div>
+      <div class="text-center border border-red-300 py-4 flex-grow">あああ</div>
+      <div class="text-center border border-red-300 py-4 flex-grow">あああ</div>
+    </div>
+
+    <div class="md:flex justify-center mb-16">
+      <div class="text-center border border-red-300 py-4 flex-grow">あああ</div>
+      <div class="text-center border border-red-300 py-4 flex-grow">あああ</div>
+      <div class="text-center border border-red-300 py-4 flex-grow">あああ</div>
+    </div>
+    縦3->横3 3/12,6/12,3/12
+    <div class="md:flex justify-center mb-16">
+      <div class="text-center border border-red-300 py-4 flex-grow md:w-3/12">
+        あああ
+      </div>
+      <div class="text-center border border-red-300 py-4 flex-grow md:w-6/12">
+        あああ
+      </div>
+      <div class="text-center border border-red-300 py-4 flex-grow md:w-3/12">
+        あああ
+      </div>
+    </div>
+  </body>
+</html>
